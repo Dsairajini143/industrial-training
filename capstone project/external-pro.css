@@ -1,0 +1,277 @@
+.main{
+    height:4000px;
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    left: 150px;
+}
+.a{
+    height: 500px;
+    width: 1000px;
+    border: solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./project\ images/doctor.jpg");
+}
+.a1{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+}
+.b{
+    height: 300px;
+    width: 900px;
+    outline: 1px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+}
+.b1{
+    height: 300px;
+    width: 300px;
+    outline: 1px;
+    background-color: lightgrey;
+    float: left;
+    color: white;
+}
+.b2{
+    height: 300px;
+    width: 300px;
+    outline: 1px;
+    background-color: grey;
+    float: left;
+    color: white;
+}
+.b3{
+    height: 300px;
+    width: 300px;
+    outline: 1px;
+    background-color: darkslategrey;
+    float: right;
+    color: white;
+}
+.modern{
+        height: 420px;
+        width: 1000px;
+        border: solid white;  
+}
+.mi{
+    height: 300px;
+    width: 70px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    border: solid white;
+    float: left;
+}
+.modern1{
+    height: 300px;
+    width: 400px;
+    border: solid white;
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+.modern2{
+    height: 300px;
+    width: 350px;
+    border: solid white;
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+    
+}
+.dept{
+      height: 230px;
+      width: 1000px;
+      border: solid gray ;
+      background-color: gray;
+      color: black;
+}
+.di{
+    height: 100px;
+    width: 800px;
+    border: solid gray;
+    position: relative;
+    bottom: 5px;
+}
+.di1{
+    height: 100px;
+    width: 160px;
+    border: solid gray;
+    float: left;
+}
+.di2{
+    height: 100px;
+    width: 155px;
+    border: solid gray;
+    float: left;
+}
+.di3{
+    height: 100px;
+    width: 155px;
+    border: solid gray;
+    float: left;
+}
+.di4{
+    height: 100px;
+    width: 155px;
+    border: solid gray;
+    float: left;
+}
+.di5{
+    height: 100px;
+    width: 153px;
+    border: solid gray;
+    float: right;
+}
+.care{
+    height: 300px;
+    width: 1000px;
+    background-color: white;
+}
+.care1{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    float: left;
+}
+.care2{
+    height: 250px;
+    width: 450px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+    float: left;
+}
+.we{
+    height: 520px;
+    width: 1000px;
+    background-color: lightgray;
+    color: black;
+}
+.we1{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: 50px;
+    float: left;
+}
+.we1i{
+    height: 180px;
+    width: 270px;
+    position: relative;
+    top: 0px;
+}
+.we2{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    position: relative;
+    left: 90px;
+    top: 50px;
+    float: left;
+}
+.we2i{
+    height: 180px;
+    width: 270px;
+    position: relative;
+    top: 0px;
+}
+.we3{
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    position: relative;
+    left: 115px;
+    top: 50px;
+    float: left;
+}
+.we3i{
+    height: 180px;
+    width: 270px;
+    position: relative;
+    top: 0px;
+}
+.img{
+    height: 550px;
+    width: 1000px;
+    color: white;
+    background-image: url("./project\ images/worldmap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.doc{
+    height: 490px;
+    width: 1000px;
+    color: black;
+}
+.doc1{
+    height: 340px;
+    width: 230px;
+    background-color: lightgray;
+    position: relative;
+    left: 130px;
+    top: 30px;
+    float: left;
+}
+.doc1i{
+    height: 260px;
+    width: 230px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+}
+.doc2{
+    height: 340px;
+    width: 230px;
+    background-color: lightgray;
+    position: relative;
+    left: 155px;
+    top: 30px;
+    float: left;
+}
+.doc2i{
+    height: 260px;
+    width: 230px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+}
+.doc3{
+    height: 340px;
+    width: 230px;
+    background-color: lightgray;
+    position: relative;
+    left: 180px;
+    top: 30px;
+    float: left;
+}
+.doc3i{
+    height: 260px;
+    width: 230px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+}
+.get{
+    height: 450px;
+    width: 1000px;
+    background-color: gray;
+    color: white;
+}
+.div{
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(1, 1, 22);
+    border: solid rgb(1, 1, 22);
+    color: white;
+}

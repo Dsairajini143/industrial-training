@@ -1,0 +1,47 @@
+.external{
+    font-size: 25px;
+    color: maroon;
+    border: 2px solid red;
+    background-color: lightgreen;
+}
+#main{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}
+span{
+    color: green;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: darkgreen;
+    background-color: lightcyan;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]
+{
+    color: darkviolet;
+}
+a[href]
+{
+    background-color: aquamarine;
+}
+a:visited
+{
+    font-size: 30px;
+    color: dodgerblue;
+}
+a:hover
+{
+    font-size: 30px;
+    color: deeppink;
+}
+a:active
+{
+    color: darkorange;
+}

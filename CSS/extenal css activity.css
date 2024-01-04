@@ -1,0 +1,65 @@
+.main{
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+}
+.a{
+    height: 350px;
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 90px;
+    top: 70px;
+    border-radius: 30px;
+    float: left;
+}
+.a1{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(74, 74, 235);
+    position: relative;
+    top: 20px;
+}
+.b{
+    height: 350px;
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 180px;
+    top: 70px;
+    border-radius: 30px;
+    float: left;
+}
+.b1{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(74, 74, 235);
+    position: relative;
+    top: 20px;
+}
+.c{
+    height: 350px;
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 270px;
+    top: 70px;
+    border-radius: 30px;
+    float: left;
+}
+.c1{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(74, 74, 235);
+    position: relative;
+    top: 20px;
+}
+.hr{
+    height: 3px;
+    width: 280px;
+    background-color: blue;
+}
+i{
+    color: white;
+    font-size: 50px;
+}

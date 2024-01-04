@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>positions tasks</title>
+        <style>
+        .main{
+            height: 600px;
+            width: 816px;
+            border: solid gray;
+        }
+        .a{
+            height: 310px;
+            width: 200px;
+            border:  solid black;
+            outline: 0px;
+            float: left;
+        }
+        .a1{
+            height: 270px;
+            width: 180px;
+            border:  solid gray;
+            outline: 0px;
+            margin: 10px;
+        }
+        .a11{
+                height: 90px ;
+                width: 90px;
+                border:  solid;
+                outline: 0px;
+                background-color:blue;
+        }
+        .a12{
+                height: 90px ;
+                width: 90px;
+                border: solid;
+                outline: 0px;
+                background-color: lime;
+        }
+        .a13{
+                height: 80px ;
+                width: 90px;
+                border: solid;
+                outline: 0px;
+                background-color: blue;
+        }
+        .b{
+            height: 310px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+        }
+        .b1{
+            height: 270px;
+            width: 180px;
+            border: solid gray;
+            outline: 0px;
+            margin: 10px;
+        }
+        .b11{
+            height: 90px ;
+            width: 90px;
+            border:  solid;
+            outline: 0px;
+            background-color: blue;
+        }
+        .b12{
+            height: 90px ;
+            width: 90px;
+            border: solid;
+            outline: 0px;
+            background-color: lime;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        .b13{
+            height: 80px ;
+            width: 90px;
+            border:  solid;
+            outline: 0px;
+            background-color: blue;
+            position: relative;
+        }
+        .c{
+            height: 310px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+        }
+        .c1{
+            height: 270px;
+            width: 180px;
+            border:  solid gray;
+            outline: 0px;
+            margin: 10px;
+        }
+        .c11{
+            height: 90px ;
+            width: 90px;
+            border:  solid;
+            outline: 0px;
+            background-color: blue;
+        }
+        .c12{
+            height: 90px ;
+            width: 90px;
+            border : solid;
+            outline: 0px;
+            background-color: blue;
+            float: left;
+        }
+        .c13{
+            height: 90px ;
+            width: 75px;
+            border: solid;
+            outline: 0px;
+            background-color:lime;
+            position: absolute;
+            left: 530px;
+            float: left;
+        }
+        .d{
+            height: 310px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: right;
+        }
+        .d1{
+            height: 270px;
+            width: 200;
+            border: solid gray;
+            outline: 0px;
+            margin: 10px;
+        }
+        .d11{
+            height: 90px ;
+            width: 90px;
+            border:  solid;
+            outline: 0px;
+            background-color: lime;
+        }
+        .d12{
+            height: 90px ;
+            width: 90px;
+            border: solid;
+            outline: 0px;
+            background-color: blue;
+        }
+        .d13{
+            height: 90px ;
+            width: 90px;
+            border:  solid;
+            background-color: lime;
+            outline: 0px;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+        }
+        .e{
+            height: 285px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+        }
+        .e1{
+            height: 245px;
+            width: 180px;
+            border: solid gray;
+            margin: 10px;
+            overflow-y: scroll;
+        }
+        .e11{
+            height: 80px;
+            width: 90px;
+            border: solid;
+            background-color: lime;
+            position: sticky;
+            top: 20px;
+        }
+        .e12{
+            height: 80px;
+            width: 90px;
+            border: solid;
+            background-color: blue;
+            position: sticky;
+        }
+        .e13{
+            height: 75px;
+            width: 90px;
+            border: solid;
+            background-color: blue;
+        }
+        .f{
+            height: 285px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+        }
+        .f1{
+            height: 245px;
+            width: 180px;
+            border: solid gray;
+            margin: 10px;
+            overflow-y: scroll;
+        }
+        .f11{
+            height: 80px;
+            width: 90px;
+            border: solid;
+            background-color: blue;
+        }
+        .f12{
+            height: 80px;
+            width:90px;
+            border: solid;
+            background-color: blue;
+            position: sticky;
+        }
+        .f13{
+            height: 75px;
+            width: 90px;
+            border: solid;
+            background-color: lime;
+            position: sticky;
+            bottom: 10px;
+        }
+        .g{
+            height: 285px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+            overflow: scroll;
+        }
+        .g1{
+            height: 245px;
+            width: 180px;
+            border: solid gray;
+            margin: 10px;
+        }
+        .g21{
+            height: 80px;
+            width: 500px;
+        }
+        .g11{
+            height: 80px;
+            width: 55px;
+            border: solid;
+            background-color: lime;
+            position: sticky;
+            left: 30px;
+            float: left;
+        }
+        .g12{
+            height: 80px;
+            width:56px;
+            border: solid;
+            background-color: blue;
+            float: left;
+        }
+        .g13{
+            height: 80px;
+            width: 57px;
+            border: solid;
+            background-color: blue;
+            float: left;
+        }
+        .h{
+            height: 285px;
+            width: 200px;
+            border: solid black;
+            outline: 0px;
+            float: left;
+            overflow: scroll;
+        }
+        .h21{
+            height: 80px;
+            width: 500px;
+        }
+        .h1{
+            height: 245px;
+            width: 180px;
+            border: solid gray;
+            margin: 10px;
+        }
+        .h11{
+            height: 80px;
+            width: 55px;
+            border: solid;
+            background-color: blue;
+            float: left;
+        }
+        .h12{
+            height: 80px;
+            width:56px;
+            border: solid;
+            background-color: blue;
+            float: left;
+        }
+        .h13{
+            height: 80px;
+            width: 57px;
+            border: solid;
+            background-color: lime;
+            position: sticky;
+            right: 30px;
+            float: left;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+        <div class="a"><center><b>position:static</b></center>
+            <div class="a1">
+                <div class="a11"></div>
+                <div class="a12"><center><small><br><br>static</small></center></div>
+                <div class="a13"></div>
+            </div>
+        </div>
+        <div class="b"><center><b>position:relative</b></center>
+            <div class="b1">
+                <div class="b11"></div>
+                <div class="b12"><small><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;relative</small></div>
+                <div class="b13"></div>
+            </div>
+        </div>
+        <div class="c"><center><b>position:absolute</b></center>
+            <div class="c1">
+                <div class="c11"></div>
+                <div class="c12"></div>
+                <div class="c13"><br><br><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;absolute</small></div> 
+            </div>
+        </div>
+        <div class="d"><center><b>position:fixed</b></center>
+            <div class="d1">
+                <div class="d11"></div>
+                <div class="d12"></div>
+                <div class="d13"><small><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fixed</small></div>
+            </div>
+        </div>
+        <div class="e"><center><b>position:sticky(top)</b></center>
+            <div class="e1">
+                <div class="e12"></div>
+                <div class="e11">&nbsp;<small><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sticky<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(top)</small></div>
+                <div class="e12"></div>
+                <div class="e13"></div>
+                <div class="e12"></div>
+            </div>
+        </div>
+        <div class="f"><center><b>position:sticky(bottom)</b></center>
+            <div class="f1">
+                <div class="f11"></div>
+                <div class="f12"></div>
+                <div class="f12"></div>
+                <div class="f13">&nbsp;<small>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sticky <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(bottom)</small></div>
+                <div class="f12"></div>
+            </div>
+        </div>
+        <div class="g"><center><b>position:sticky(left)</b></center>
+            <div class="g1">
+                <div class="g21">
+                    <div class="g12"></div>
+                    <div class="g11">&nbsp;<small>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sticky <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(left)</small></div>
+                    <div class="g12"></div>
+                    <div class="g13"></div>  
+                    <div class="g12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="h"><center><b>position:sticky(right)</b></center>
+            <div class="h1">
+                <div class="h11"></div>
+                <div class="h12"></div>
+                <div class="h13">&nbsp;<small>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sticky <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(right)</small></div>  
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
