@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jan6-task</title>
+    <style>
+        .main{
+            height: 700px;
+            width: 100%;
+            background-color: rgb(255, 255, 221);
+        }
+        .sub{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(97, 163, 186);
+        }
+        h2{
+            color: white;
+            padding-top: 10px;
+        }
+        .a{
+            height: 500px;
+            width: 360px;
+            margin-top: 30px;
+            margin-left: 40px;
+            float: left;
+        }
+        button{
+            height: 40px;
+            width: 360px;
+            background-color: rgb(97, 163, 186);
+            border: solid rgb(97, 163, 186);
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        hr{
+            height: 2px;
+            width: 160px;
+            background-color: black;
+            float: left;
+        }
+        .hr{
+            margin-top: 25px;
+            font-size: 20px;
+        }
+        .b{
+            height: 500px;
+            width: 800px;
+            float: right;
+            margin-top: 20px;
+        }
+        .b1{
+            height: 180px;
+            width: 800px;
+            background-color: rgb(97, 163, 186);
+            color: white;
+            margin-top: 10px;
+        }
+        .b11{
+            height: 180px;
+            width: 500px;
+            float: left;
+            margin-left: 20px;
+        }
+        .b12{
+            height: 100px;
+            width: 150px;
+            float: right;
+           margin-top: 30px;
+            color: white;
+        }
+        img{
+            height: 60px;
+            width: 60px;
+            margin-left: 20px;
+        }
+        h3{
+            margin-left: 20px;
+        }
+        p{
+            margin-left: 20px;
+        }
+        .b2{
+            height: 320px;
+            width: 800px;
+        }
+        .b21{
+            height: 250px;
+            width: 190px;
+            background-color: rgb(136, 171, 142);
+            margin-right: 10px;
+            margin-top: 30px;
+            float: left;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">
+            <center>
+                <h2>Weather Dashboard</h2>
+            </center>
+        </div>
+        <div class="a">
+            <h3>Enter a City name: </h3>
+            <input type="text" style="height: 30px; width: 350px;" placeholder="E.g..New York, London, Tokyo">
+            <button>search</button>
+            <div class="hr">
+                <hr>&nbsp;Or<hr style="float: right;">
+            </div>
+            <button style="background-color: rgb(136, 171, 142); border: solid rgb(136, 171, 142)">Use Current Location</button>
+        </div>
+        <div class="b">
+           <div class="b1">
+                <div class="b11">
+                    <h3>London (2023-06-19)</h3>
+                    <p>Temperature : 18.71 C <br><br>Wind:4.31 M/S <br><br>Humidity:76%</p>
+                </div>
+                <div class="b12">
+                    <img height="100px" width="100px" src="sun&rain.png" alt="">
+                    <p>Moderatte Rain</p>
+                </div>
+            </div>
+            <h2 style="color: black;">4-Day Forecast</h2> 
+            <div class="b2">
+                <div class="b21">
+                    <h3 style="color: white;">(2023-06-20)</h3>
+                    <img src="cloud&sun.png" alt="">
+                    <p style="color: white;">Temp:17.64 C <br><br>
+                        Wind:0.73 M/S <br><br>
+                        Humidity:70%
+                    </p>
+                </div>
+                <div class="b21">
+                    <h3 style="color: white;">(2023-06-21)</h3>
+                    <img src="sun.png" alt="">
+                    <p style="color: white;">Temp:16.78 C <br><br>
+                        Wind:2.72 M/S <br><br>
+                        Humidity:83%
+                    </p>
+                </div>
+                <div class="b21">
+                    <h3 style="color: white;">(2023-06-22)</h3>
+                    <img src="thunder.png" alt="">
+                    <p style="color: white;">Temp:18.20 C <br><br>
+                        Wind:1.49 M/S <br><br>
+                        Humidity:72%
+                    </p>
+                </div>
+                <div class="b21">
+                    <h3 style="color: white;">(2023-06-23)</h3>
+                    <img src="wind.png" alt="">
+                    <p style="color: white;">Temp:17.08 C <br><br>
+                        Wind:0.9 M/S <br><br>
+                        Humidity:89%
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

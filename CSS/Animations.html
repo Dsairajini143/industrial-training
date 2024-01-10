@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animations</title>
+        <style>
+            .a{
+                height: 150px;
+                width: 150px;
+                margin-left: 50px;
+                border: solid black;
+                background-color: dodgerblue;
+                border-radius:100%;
+                animation-name: testing;
+                animation-duration: 3s;
+                animation-iteration-count: 2;
+                animation-delay: 3s;
+                
+                position: relative;
+                /*animation: testing 5s 3 reverse 3s;*/
+
+            }
+            @keyframes testing{
+                /*from{
+                    background-color: crimson;
+                }
+                to{
+                    background-color: limegreen;
+                }*/
+                0%{
+                    background-color: deeppink; top: 10px; left: 20px;
+                }
+                25%{
+                    background-color: darkgreen; top:10px; left: 600px;
+                }
+                50%{
+                    background-color: darkorange;top: 300px; left: 600px;
+                }
+                75%{
+                    background-color: indigo;top: 300px; left: 20px;
+                }
+                100%{
+                    background-color: yellow;top: 10px; left: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1><center>Animations in CSS</center></h1>
+        <hr>
+        <div class="a"></div>
+    </body>
+</html>

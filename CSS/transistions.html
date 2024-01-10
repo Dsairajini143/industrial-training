@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>transistions</title>
+        <style>
+            .a{
+                height: 300px;
+                width: 350px;
+                background-color: grey;
+                border: solid black;
+                float: left;
+                margin-left: 50px;
+                /*transition: all 3s ease-in-out 2s;*/
+                transition-property:transform;
+                transition-delay: 5s;
+                transition-duration: 4s;
+                transition-timing-function: linear;
+            }                
+            .a:hover{
+                /*width:200px;*/
+                background-color: rgb(247, 4, 53);
+                margin-top: 50px;
+                transform: rotate(180deg);
+                border-radius: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1><center>Transistions in CSS</center></h1>
+        <hr>
+        <div class="a"></div>
+    </body>
+</html>

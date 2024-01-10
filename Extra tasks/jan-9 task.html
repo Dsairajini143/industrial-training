@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jan-9 task</title>
+        <style>
+            .main{
+                height: 600px;
+                width: 100%;
+                border:  solid black;
+                margin: 50px;
+            }
+            .sub1{
+                height: 600px;
+                width: 42%;
+                float: left;
+            }
+            .sub2{
+                height: 600px;
+                width: 56%;
+                float: left;
+            }
+            img{
+                height: 400px;
+                width: 400px;
+                margin: 20px;
+            }
+            input{
+                height: 30px;
+                width: 550px;
+                margin: 15px;
+            }
+            button{
+                height: 40px;
+                width: 555px;
+                position: relative;
+                top: 10px;
+                margin-left: 20px;
+                margin-top: 10px;
+                border-radius: 5px;
+                color: white;
+                border: solid white;
+            }
+            .hr{
+                margin-top: 10px;
+                font-size: 20px;
+                width: 300px;
+                float: left;
+            }
+            @media screen and (max-width:500px){
+                .main{
+                    width: 400px;
+                }   
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="sub1">
+                <img src="person with phone.png" alt="">
+                <h1 style="margin-left: 80px;">Create an Account</h1>
+                <p style="color: gray; margin-left: 80px;"><i>Create a minimal registration page using Bootstrap 4 <br>
+                HTML form elements.<br>Snippet By <u>BootsrapiousS</u></i></p>
+            </div>
+            <div class="sub2">
+                <input type="text" placeholder="First name" style="height: 30px; width: 250px; float: left;">
+                <input type="text" placeholder="last name" style="height: 30px; width: 250px; float: left; margin-right: 50px;">
+                <input type="text" placeholder="Email Address">
+                <input type="number" placeholder="phone number">
+                <input type="text" placeholder="Choose your job">
+                <input type="password" placeholder="password" style="height: 30px; width: 250px; float: left;">
+                <input type="password" placeholder="conform pass word" style="height: 30px; width: 250px; float: left; margin-right: 50px;">
+                <button style="background-color: dodgerblue;margin-bottom: 50px;">Create your Account</button>
+                <button style="background-color: darkblue">Continue with Facebook</button>
+                <button style="background-color: lightskyblue">Continue with twitter</button>
+                <h4 style="position: relative; right: 50px;"><center>Already Registered? <a href="">Login</a></center></h4>
+            </div>
+        </div>
+    </body>
+</html>

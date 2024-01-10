@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform & media</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .one{
+            height: 250px;
+            width: 200px;
+            background-color: crimson;
+            float: left;
+        }
+        .one:hover{
+            transform: translate(40px ,50px);
+        }
+        .one1{
+            height: 250px;
+            width: 200px;
+            background-color: dodgerblue;
+            float: left;
+        }
+        .one2{
+            height: 250px;
+            width: 200px;
+            background-color: indigo;
+            float: left;
+        }
+        .two{
+            height: 250px;
+            width: 200px;
+            background-color: darkorchid;
+            float: left;
+        }
+        .two1{
+            height: 250px;
+            width: 200px;
+            background-color: goldenrod;
+            float: left;
+        }
+        .two2{
+            height: 250px;
+            width: 200px;
+            background-color: limegreen;
+            float: left;
+        }
+        h2{
+            color: white;
+            text-align: center;
+        }
+        .a{
+            height: 250px;
+            width: 200px;
+            background-color: darkorchid;
+            float: left;
+        }
+        @media screen and (min-width:201px) and (max-width:450px){
+            .one{
+                width: 100%;
+            }
+            .one1{
+                width: 100%;
+            }
+            .one2{
+                width: 100%;
+            }
+            .two{
+                width: 100%;
+            }
+            .two1{
+                width: 100%;
+            }
+            .two2{
+                width: 100%;
+            }
+            .three{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:450px) and (max-width:650px){
+            .one{
+                width: 50%;
+            }
+            .one1{
+                width: 50%;
+            }
+            .one2{
+                width: 50%;
+            }
+            .two{
+                width: 50%;
+            }
+            .two1{
+                width: 50%;
+            }
+            .two2{
+                width: 50%;
+            }
+        }
+        @media screen and (min-width:650px) and (max-width:850px){
+            .one{
+                width: 33%;
+            }
+            .one1{
+                width: 33%;
+            }
+            .one2{
+                width: 33%;
+            }
+            .two{
+                width: 33%;
+            }
+            .two1{
+                width: 33%;
+            }
+            .two2{
+                width: 33%;
+            }
+        }
+        @media screen and (min-width:850px) and (max-width:950px){
+            .one{
+                width: 25%;
+            }
+            .one1{
+                width: 25%;
+            }
+            .one2{
+                width: 25%;
+            }
+            .two{
+                width: 25%;
+            }
+            .two1{
+                width: 25%;
+            }
+            .two2{
+                width: 25%;
+            }
+        }
+        @media screen and (min-width:950px) and (max-width:1024px){
+            .one{
+                width: 20%;
+            }
+            .one1{
+                width: 20%;
+            }
+            .one2{
+                width: 20%;
+            }
+            .two{
+                width: 20%;
+            }
+            .two1{
+                width: 20%;
+            }
+            .two2{
+                width: 20%;
+            }  
+        }
+       
+        
+     </style>
+</head>
+<body>
+    <center><h1>Transforms (2D) in CSS</h1></center> 
+    <hr> 
+    <div class="one"><h2>Translate</h2></div> 
+    <div class="one1"><h2>TranslateX</h2></div>
+    <div class="one2"><h2>TranslateY</h2></div>
+    <div class="two"><h2>Rotetary</h2></div> 
+    <div class="two1"><h2>Rotetary <br> clockwise</h2></div>
+    <div class="two2"><h2>Rotetary <br> Anticlockwise</h2></div>
+</body>
+</html>
