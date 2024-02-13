@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feb-13 JS-2</title>
+</head>
+<body>
+    <center><h1>Objects in JAVASCRIPT</h1></center>
+    <script>
+        let users={
+            name:'Rajini',
+            id :4233,
+            college: 't-hub'
+        }
+        console.log(users)
+        console.log(users.id)//dot notation
+        console.log(users['name'])// array notation
+        users.name="saisri",
+        console.log(users.name)
+        users.age=18
+        console.log(users.age)
+        delete users.age
+        console.log(users)
+        console.log('age' in users)
+    </script>
+</body>
+</html>
